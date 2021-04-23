@@ -1,8 +1,5 @@
 from django.db import models
 
-"""
-создание таблиц бд
-"""
 # Create your models here.
 class Client(models.Model):
     SecondName = models.CharField(max_length=50)
